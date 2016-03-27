@@ -12,7 +12,7 @@ module.exports = {
         loaders: [{
               //IMAGE LOADER
               test: /\.(jpe?g|png|gif|svg)$/i,
-              loader:'url'
+              loader:'url?limit=8192' // inline base64 URLs for <=8k images, direct URLs for the rest
             }
         ]
     },
