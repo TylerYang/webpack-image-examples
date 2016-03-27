@@ -5,7 +5,7 @@ module.exports = {
     ],
     output: {
         path: __dirname + "/dist",
-        filename: "bundle.js",
+        filename: "dist.js",
         publicPath: "/assets/" //The public path to load your async content, such as xxx.svg
     },
     module: {
