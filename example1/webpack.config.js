@@ -6,7 +6,7 @@ module.exports = {
     output: {
         path: __dirname + "/dist",
         filename: "dist.js",
-        publicPath: "/assets/" //The public path to load your async content, such as xxx.svg
+        publicPath: "/dist/" //The public path to load your async content, such as xxx.svg
     },
     module: {
         loaders: [{
